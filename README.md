@@ -2,4 +2,4 @@
 
 Project links:
 
-https://saifs.github.io/machine.learning/DPproj.html
+https://saifs.github.io/data.prod/DPproj.html
