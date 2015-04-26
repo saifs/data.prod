@@ -2,4 +2,6 @@
 
 Project links:
 
-https://saifs.github.io/data.prod/DPproj.html
+https://saifs.github.io/data.prod/index.html
+
+https://saifs.shinyapps.io/egghead/
