@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Egghead!</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Egghead!">
+  <meta name="author" content="S.S.">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <aside class="gdbar">
+    <img src="assets/img/logo.png">
+  </aside>
+  <hgroup class="auto-fadein">
+    <h1>Egghead!</h1>
+    <h2>Brain Exercise</h2>
+    <p>S.S.<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:#222222;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:#222222;">
+  <hgroup>
+    <h2>Why Egghead?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Are you an Egghead? Do you want to be one? If you answered yes, start exercising your brain with Egghead! Based on real TV questions from the popular game show Jeopardy!</p>
+
+<p>The questions are from a dataset of over 200,000 real questions collected between 1984 and 2012. You&#39;ll never get bored and always have a new question to think about!</p>
+
+<p>The dataset was scraped from publicly contributed content on <a href="http://www.j-archive.com">here</a> by fans. Jeopardy! is a registered trademark of Jeopardy Productions, Inc.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:#222222;">
+  <hgroup>
+    <h2>Large selection of questions</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>With the massive number of questions, you&#39;ll always have something new. Let&#39;s see just how many questions there are:</p>
+
+<pre><code class="r">nrow(data)
+</code></pre>
+
+<pre><code>## [1] 202808
+</code></pre>
+
+<p>Amazing! Now, let&#39;s see how the minimum and maximum $ value of the questions vary:</p>
+
+<pre><code class="r">min(data$Value)
+</code></pre>
+
+<pre><code>## [1] 5
+</code></pre>
+
+<pre><code class="r">max(data$Value)
+</code></pre>
+
+<pre><code>## [1] 18000
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:#222222;">
+  <hgroup>
+    <h2>See Real-time Charts &amp; Calculations</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>As you progress through the questions, you will get real-time feedback on your performance with charts such as below. Your total earnings will also be calculated and updating constantly.</p>
+
+<p><img src="assets/fig/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:#222222;">
+  <hgroup>
+    <h2>In Action</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Here&#39;s what it looks like. Go head, give it a try <a href="https://saifs.shinyapps.io/egghead">here!</a></p>
+
+<div style='text-align: center;'>
+<img height='500' src='egghead.JPG'/>
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title=''>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Why Egghead?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Large selection of questions'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='See Real-time Charts &amp; Calculations'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='In Action'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
